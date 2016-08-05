@@ -5,7 +5,7 @@ var express = require("express")
 	, fs = require('fs')
 	;
 
-var PORT = process.env.OPENSHIFT_NODEJS_PORT  || 8000
+var PORT = process.env.OPENSHIFT_NODEJS_PORT  || 8080
 	, IPADDRESS = process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0'
 	, TILES_DIR = process.env.OPENSHIFT_DATA_DIR || path.join(__dirname, 'data')
 	;
